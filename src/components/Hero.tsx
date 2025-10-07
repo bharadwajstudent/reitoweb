@@ -13,7 +13,7 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center text-white">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal mb-4 sm:mb-6 leading-tight px-2">
-          A <span className="italic">Smarter Way</span> to Buy a Property in Dubai
+          A <span className="italic">Smarter Way</span> to Buy a Property in Hyderabad
         </h1>
         
         <div className="max-w-3xl mx-auto space-y-2 sm:space-y-4 mb-8 sm:mb-12 px-2">

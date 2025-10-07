@@ -10,7 +10,7 @@ import {
 
 const ContactSection = () => {
   return (
-    <section className="py-12 sm:py-16 md:py-24 bg-accent/30">
+    <section id="contact" className="py-12 sm:py-16 md:py-24 bg-accent/30">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="grid md:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
           <div className="space-y-4 sm:space-y-6">
@@ -44,9 +44,9 @@ const ContactSection = () => {
                 <label className="text-xs sm:text-sm">Phone *</label>
                 <div className="flex gap-2">
                   <div className="w-12 h-10 flex items-center justify-center border border-input rounded-md bg-background text-base sm:text-lg flex-shrink-0">
-                    🇦🇪
+                    🇮🇳
                   </div>
-                  <Input placeholder="e.g. 52 123 4567" className="flex-1 bg-background" />
+                  <Input placeholder="e.g. 98765 43210" className="flex-1 bg-background" />
                 </div>
               </div>
             </div>

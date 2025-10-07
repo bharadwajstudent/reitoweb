@@ -9,21 +9,21 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
         <div className="text-xl sm:text-2xl font-light tracking-tight">
-          nomad<span className="font-normal">homes</span>
+          REITO
         </div>
         
         <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
+          <a href="#home" className="text-sm tracking-wide hover:text-primary transition-colors uppercase">
+            Home
+          </a>
           <a href="#about" className="text-sm tracking-wide hover:text-primary transition-colors uppercase">
-            About Us
+            About
           </a>
-          <a href="#how-we-work" className="text-sm tracking-wide hover:text-primary transition-colors uppercase">
-            How We Work
+          <a href="#services" className="text-sm tracking-wide hover:text-primary transition-colors uppercase">
+            Services
           </a>
-          <a href="#private-client" className="text-sm tracking-wide hover:text-primary transition-colors uppercase">
-            Private Client
-          </a>
-          <a href="#testimonials" className="text-sm tracking-wide hover:text-primary transition-colors uppercase">
-            Client Testimonials
+          <a href="#contact" className="text-sm tracking-wide hover:text-primary transition-colors uppercase">
+            Contact
           </a>
         </nav>
         
@@ -48,32 +48,32 @@ const Header = () => {
         <div className="lg:hidden border-t border-border bg-background/95 backdrop-blur-sm">
           <nav className="container mx-auto px-4 py-4 flex flex-col gap-4">
             <a 
+              href="#home" 
+              className="text-sm tracking-wide hover:text-primary transition-colors uppercase py-2"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Home
+            </a>
+            <a 
               href="#about" 
               className="text-sm tracking-wide hover:text-primary transition-colors uppercase py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              About Us
+              About
             </a>
             <a 
-              href="#how-we-work" 
+              href="#services" 
               className="text-sm tracking-wide hover:text-primary transition-colors uppercase py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              How We Work
+              Services
             </a>
             <a 
-              href="#private-client" 
+              href="#contact" 
               className="text-sm tracking-wide hover:text-primary transition-colors uppercase py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Private Client
-            </a>
-            <a 
-              href="#testimonials" 
-              className="text-sm tracking-wide hover:text-primary transition-colors uppercase py-2"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Client Testimonials
+              Contact
             </a>
           </nav>
         </div>
