@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        nomad: {
+          cream: "hsl(var(--nomad-cream))",
+          beige: "hsl(var(--nomad-beige))",
+          gray: "hsl(var(--nomad-gray))",
+          dark: "hsl(var(--nomad-dark))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
